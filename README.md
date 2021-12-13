@@ -12,6 +12,6 @@ Tap Rovers nose to quit the app
 Click and drag his body to move him
 
 ### Collar
-CLick his collar to open up the about screen
+Click his collar to open up the about screen
 
 ![](https://github.com/awesomelewis2007/Rover/blob/main/Documentation/Rover2.png?raw=true)
