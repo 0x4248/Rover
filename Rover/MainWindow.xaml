@@ -1,0 +1,15 @@
+﻿<Window x:Class="Rover.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Rover" Height="95" Width="81"
+        AllowsTransparency="True" WindowStyle="None" MouseDown="Window_MouseDown" Deactivated="Window_Deactivated" Icon="/ROVER.png">
+    <Window.Background>
+        <SolidColorBrush Opacity="0" Color="White"/>
+    </Window.Background>
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Source="/ROVER.png"/>
+        <Button x:Name="Close" Content="Button" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Height="7" Width="11" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Close_Click" Opacity="0"/>
+        <Button x:Name="Info" Content="Button" HorizontalAlignment="Left" Margin="20,0,0,0" VerticalAlignment="Center" Height="10" Width="11" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Info_Click" Opacity="0"/>
+
+    </Grid>
+</Window>
