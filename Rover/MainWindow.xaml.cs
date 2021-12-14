@@ -24,7 +24,7 @@ namespace Rover
 		{
 			if (!File.Exists(@".roverwelcome"))
 			{
-				Info info = new Info();
+				Welcome info = new Welcome();
 				info.Show();
 				FileStream fs = File.Create(".roverwelcome", 1024);
 			}
