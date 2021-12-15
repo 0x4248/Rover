@@ -109,10 +109,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="ROVER.png" />
+    <Resource Include="Rover.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="ROVER_HELP.png" />
+    <Resource Include="Rover_help.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Background.jpg" />

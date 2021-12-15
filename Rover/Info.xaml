@@ -10,7 +10,7 @@
         <Label Content="C# Rover" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.507,0.506" Height="37" Width="202" Foreground="#FFF1C700" FontSize="24" Margin="3,0,0,0">
         </Label>
         <TextBlock HorizontalAlignment="Left" Margin="8,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsEnabled="False" Foreground="White" Height="97" Width="174" FontSize="14"><Run Text="A desktop rover made in C#"/><LineBreak/><Run Text="Touch my nose to close me"/><LineBreak/><Run Text="(The red box)"/><LineBreak/><Run Language="en-gb" Text="Touch my collar to open this window (The blue box)"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
-        <Image HorizontalAlignment="Left" Height="76" Margin="170,7,0,0" VerticalAlignment="Top" Width="65" Source="/ROVER_HELP.png"/>
+        <Image HorizontalAlignment="Left" Height="76" Margin="170,7,0,0" VerticalAlignment="Top" Width="65" Source="/Rover_help.png"/>
         <Button x:Name="Close" Content="X" HorizontalAlignment="Left" Margin="210,0,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Width="25" Click="Close_click" RenderTransformOrigin="1,0">
         </Button>
         <Label x:Name="Version" Content="0.0.0.0" HorizontalAlignment="Left" Margin="199,114,0,0" VerticalAlignment="Top" Height="23" FontSize="10" Foreground="#FF656565" Width="41" RenderTransformOrigin="0.5,0.5"/>
