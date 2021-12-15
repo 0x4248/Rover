@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Rover"
         mc:Ignorable="d"
-        Title="Welcome To C# Rover" Height="280" Width="248" Background="#FF1A1A1A" WindowStyle="SingleBorderWindow" ResizeMode="CanMinimize">
+        Title="Welcome To C# Rover" Height="300" Width="248" Background="#FF1A1A1A" WindowStyle="SingleBorderWindow" ResizeMode="CanMinimize">
     <Grid>
         <Image HorizontalAlignment="Center" Height="118" VerticalAlignment="Top" Width="248" Source="/Background.jpg" Stretch="Fill" StretchDirection="Both" RenderTransformOrigin="0.507,0.055"/>
         <Label Content="C# Rover" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="36" Background="{x:Null}" Foreground="#FF040404"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Width="228" Height="96"><Run Language="en-gb" Text="C# Rover is a simple desktop gadget from the windows XP era you can do some functions with the dog like move it around and tap his nose and collar. It in development right now so expect some bugs "/></TextBlock>
         <Label Content="What is c# Rover?" HorizontalAlignment="Left" Margin="5,123,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontWeight="Bold"/>
+        <Label x:Name="Version" Content="0.0.0.0" HorizontalAlignment="Left" Margin="173,232,0,0" VerticalAlignment="Top" Foreground="#FF615E5E" Width="65"/>
 
     </Grid>
 </Window>

@@ -11,7 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
+using System.Reflection;
 namespace Rover
 {
 	/// <summary>
@@ -22,6 +22,7 @@ namespace Rover
 		public Welcome()
 		{
 			InitializeComponent();
+			Version.Content = Assembly.GetEntryAssembly().GetName().Version.ToString();
 		}
 	}
 }
